@@ -1,0 +1,62 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-pipe",
+      "-nostdinc",
+      "-O1",
+      "-fno-builtin",
+      "-I.",
+      "-fno-omit-frame-pointer",
+      "-std=gnu99",
+      "-fno-pie",
+      "-Wall",
+      "-Wno-format",
+      "-Wno-unused",
+      "-Werror",
+      "-gstabs",
+      "-m32",
+      "-fno-tree-ch",
+      "-fno-stack-protector",
+      "-DJOS_KERNEL",
+      "-gstabs",
+      "-c",
+      "-o",
+      "obj/kern/init.o",
+      "kern/init.c"
+    ],
+    "directory": "/home/zjl-ubun/6.828/lab",
+    "file": "/home/zjl-ubun/6.828/lab/kern/init.c",
+    "output": "/home/zjl-ubun/6.828/lab/obj/kern/init.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-pipe",
+      "-nostdinc",
+      "-O1",
+      "-fno-builtin",
+      "-I.",
+      "-fno-omit-frame-pointer",
+      "-std=gnu99",
+      "-fno-pie",
+      "-Wall",
+      "-Wno-format",
+      "-Wno-unused",
+      "-Werror",
+      "-gstabs",
+      "-m32",
+      "-fno-tree-ch",
+      "-fno-stack-protector",
+      "-DJOS_USER",
+      "-gstabs",
+      "-c",
+      "-o",
+      "obj/lib/spawn.o",
+      "lib/spawn.c"
+    ],
+    "directory": "/home/zjl-ubun/6.828/lab",
+    "file": "/home/zjl-ubun/6.828/lab/lib/spawn.c",
+    "output": "/home/zjl-ubun/6.828/lab/obj/lib/spawn.o"
+  }
+]
